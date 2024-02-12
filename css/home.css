@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  max-width: 390px;
+  min-width: 300px;
+  max-height: 852px;
+  margin:auto;
+}
+
+/* -------------header------------ */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+header h1 img {
+  width: 150px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding-left:20px;
+}
+
+.top_menu a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/header_menu.png)0 0/ 180px 40px no-repeat;
+  text-indent: -9999px;
+  ;
+}
+
+.top_menu .infoBtn {
+  background-position: 0;
+}
+
+.top_menu .storeBtn {
+  background-position: -70px 0;
+}
+
+.top_menu .mypageBtn {
+  background-position: -140px 0;
+}
+
+/* -------------section------------ */
+.head_point {
+  display: flex;
+  justify-content: center;
+}
+.point{
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin:0 5px;
+  width:97%;
+}
+
+.myPoint {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.point_amount {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.point button {
+  display: block;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  border-radius: 20px;
+  border: none;
+  background: #2CB216;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+/* ---------------slider----------- */
+.sliders {
+  width:97%;
+  height:110px;
+  overflow: hidden;
+  margin: 50px 5px;
+}
+
+.slider01,
+.slider02,
+.slider03 {
+  position: relative;
+}
+
+.slider01 img,
+.slider02 img,
+.slider03 img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.slider_txt01 {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.slider_txt01 span {
+  color: #1a700d;
+}
+
+.slider_txt02 {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.slider02 button {
+  position: absolute;
+  bottom: 15px;
+  right: 34%;
+  border-radius: 20px;
+  border: none;
+  background: #2CB216;
+  font-size: 12px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.slider_txt03 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.slider_txt03 span {
+  font-size: 14px;
+  font-weight: bold
+}
+
+/* ------------point_get------------- */
+
+h2 {
+  font-size:28px;
+  color:#2CB216;
+  margin:0 10px 30px;
+}
+.point_get ul {
+  display: flex;
+  justify-content: space-around;
+}
+.point_get img {border-radius: 10px;}
+
+.point_get01,
+.point_get02,
+.point_get03 {
+  position: relative;
+}
+
+.point_txt01 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.point_txt02 {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.point_txt03 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ----------------main-------------- */
+main h2 {
+  margin-top:80px;
+}
+main img {
+  width:160px;
+  height:160px;
+  border:2px solid #2CB216;
+  border-radius: 50%;
+  object-fit:contain;
+}
+
+.mission01,
+.mission02,
+.mission03 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mission_txt01,
+.mission_txt02,
+.mission_txt03 {
+  margin:10px 0 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.mission_txt01 p,
+.mission_txt02 p,
+.mission_txt03 p {font-size:18px;font-weight: 500;}
+
+

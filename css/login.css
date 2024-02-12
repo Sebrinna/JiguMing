@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 410px;
+  min-width: 300px;
+  max-height: 852px;
+  margin: auto;
+}
+
+header {
+  padding: 30px 0;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+
+.header_top p:first-child {
+  font-size: 21px;
+}
+
+.header_top p:nth-child(2) {
+  font-size: 13px;
+  color: gray;
+}
+
+.header_top span {
+  color: rgb(8, 156, 8);
+}
+
+.login_head h1 {
+  font-size: 55px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+.icon img {
+  width:22px;
+}
+section div:first-child img {
+  margin-right:10px;
+}
+section div a {
+  color:blue;
+}
+
+section div:nth-child(2) img {
+  margin-left:30px
+}
+
+main {
+  margin-top:80px;
+}
+
+.id,.pw {font-weight: 500;}
+.pw {margin-top:30px;}
+input[type='text'] {
+  padding:20px;
+  width:90%;
+  margin:10px 0;
+  border-radius: 10px;
+  border:1px solid gray;
+}
+[type='password'] {
+  padding:20px;
+  width:90%;
+  margin:10px 0;
+  border-radius: 10px;
+  border:1px solid gray;
+}
+.pw_forget {
+  margin-top:10px;
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+  color:blue;
+}
+
+footer {
+  height:120px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+footer a {
+  text-align: center;
+  border:none;
+  background: #2CB216;
+  padding:15px 0;
+  width:236px;
+  border-radius: 10px;
+  color:#fff;
+}
