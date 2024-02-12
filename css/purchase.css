@@ -115,9 +115,10 @@ header .main-img img {
   position: absolute;
   top:40%;
   left:0;
-  width:410px;
+  width:97%;
   height:70px;
   background: #13380d;
+  z-index:999;
 }
 .popUp p{
   text-align: center;
